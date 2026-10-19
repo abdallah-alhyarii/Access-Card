@@ -1,0 +1,49 @@
+body {
+  min-height: 100vh;
+  font-family: Tahoma, Arial, sans-serif;
+  background: #f1f5f9;
+}
+
+.access-card {
+  width: 100%;
+  max-width: 360px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 24px;
+  background: white;
+  box-shadow: 0 16px 40px rgba(20, 43, 74, 0.15);
+}
+
+.card-header-bg {
+  height: 125px;
+  background: linear-gradient(135deg, #142b4a, #3478b8);
+}
+
+.profile-image {
+  width: 125px;
+  height: 125px;
+  margin-top: -65px;
+  object-fit: cover;
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.person-name {
+  color: #142b4a;
+  font-weight: 700;
+}
+
+.job-title {
+  color: #718096;
+}
+
+.phone-link {
+  color: #2463a5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.phone-link:hover {
+  color: #142b4a;
+}
